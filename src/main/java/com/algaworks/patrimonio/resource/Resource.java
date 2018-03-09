@@ -15,7 +15,7 @@ import com.algaworks.patrimonio.model.Item;
 import com.algaworks.patrimonio.repository.ItemRepository;
 
 @RestController
-@CrossOrigin("#origem.permitida")
+@CrossOrigin(origins = "*", maxAge = 3600)
 public class Resource {
 	
 	@Autowired
