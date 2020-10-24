@@ -9,4 +9,5 @@ public class PatrimonioApiApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(PatrimonioApiApplication.class, args);
 	}
+	
 }
